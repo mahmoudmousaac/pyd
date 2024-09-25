@@ -1,3 +1,11 @@
+import time
+import json
+import telebot
+
+##TOKEN DETAILS
+TOKEN = "TRON"
+
+
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
